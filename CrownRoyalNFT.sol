@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+import "./ERC721/ERC721.sol";
+import "./ERC721URIStorage.sol";
+import "./Ownable.sol";
+import "./Counters.sol";
 
 contract CasinoRoyal is ERC721, ERC721URIStorage, Ownable {
 
