@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "./ERC721/ERC721.sol";
+import "./ERC721.sol";
 import "./ERC721URIStorage.sol";
 import "./Ownable.sol";
 import "./Counters.sol";
